@@ -5,7 +5,7 @@ ARCH        ='loongarch'
 CPU         ='la264'
 CROSS_TOOL  ='gcc'
 
-RTT_ROOT = os.getenv('RTT_ROOT') or os.path.join(os.getcwd(), '..', '..')
+RTT_ROOT = os.getenv('RTT_ROOT') or os.path.join(os.getcwd(), '..', '..', '..')
 
 if os.getenv('RTT_CC'):
     CROSS_TOOL = os.getenv('RTT_CC')
