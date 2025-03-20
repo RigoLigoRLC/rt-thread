@@ -1,0 +1,5 @@
+CompileFlags:
+    Remove:
+        - '-fstrict-volatile-bitfields'
+        - '-fvar-tracking'
+        - '-mcmodel=normal'

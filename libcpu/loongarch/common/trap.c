@@ -50,7 +50,7 @@ extern void handle_tlb_modify_ptw(void);
  * This function will un-mask a interrupt.
  * @param vector the interrupt number
  */
-void rt_hw_interrupt_umask(int vector)
+rt_weak void rt_hw_interrupt_umask(int vector)
 {
 
 }
